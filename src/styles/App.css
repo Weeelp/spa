@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.card__item {
+  margin: 15px 5px;
+  padding: 20px 15px;
+  border: teal solid 1px;
+  max-width: 450px;
+  border-radius: inherit;
+  height: 100%;
+}
+
+.card__content {
+  margin: 20px 10px;
+}
