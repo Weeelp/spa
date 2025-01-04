@@ -1,5 +1,6 @@
 import React from "react";
 import MyButton from "./UI/MyButton/MyButton";
+import heartIMG from "../img/free-icon-heart-1077035.png";
 
 const CardItem = (props) => {
   return (
@@ -10,7 +11,9 @@ const CardItem = (props) => {
         </strong>
         <div>{props.card.body}</div>
       </div>
-      <MyButton style={{ borderRadius: "100%" }}>♡</MyButton>
+      <MyButton style={{ borderRadius: "100% " }}>
+        <img src={heartIMG} style={{}} alt="Like" />
+      </MyButton>
     </div>
   );
 };
